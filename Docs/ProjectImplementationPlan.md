@@ -10,15 +10,15 @@ This plan outlines a **5-phase approach** to developing a secure LAN-based chat 
 
 ### Key Tasks:
 
-* [ ] **Initialize Project:** Create a new Rust binary project using `cargo new chat-server`
-* [ ] **Setup .gitignore:** Add the standard Rust `.gitignore` template to the project root
-* [ ] **Add Core Dependencies:** Edit `Cargo.toml` to include:
+* [x] **Initialize Project:** Create a new Rust binary project using `cargo new chat-server`
+* [x] **Setup .gitignore:** Add the standard Rust `.gitignore` template to the project root
+* [x] **Add Core Dependencies:** Edit `Cargo.toml` to include:
 
   * `tokio`
   * `axum`
   * `tracing`
   * `tracing-subscriber`
-* [ ] **Create Basic Server:** In `src/main.rs`, write code to start a basic Axum server on port 8080
+* [x] **Create Basic Server:** In `src/main.rs`, write code to start a basic Axum server on port 8080
 * [ ] **Static File Serving:**
 
   * [ ] Add the `tower-http` dependency
