@@ -19,12 +19,12 @@ This plan outlines a **5-phase approach** to developing a secure LAN-based chat 
   * `tracing`
   * `tracing-subscriber`
 * [x] **Create Basic Server:** In `src/main.rs`, write code to start a basic Axum server on port 8080
-* [ ] **Static File Serving:**
+* [x] **Static File Serving:**
 
-  * [ ] Add the `tower-http` dependency
-  * [ ] Create a `wwwroot` directory
-  * [ ] Place placeholder `index.html` and `client.js` in `wwwroot`
-  * [ ] Configure Axum to serve files from `wwwroot`
+  * [x] Add the `tower-http` dependency
+  * [x] Create a `wwwroot` directory
+  * [x] Place placeholder `index.html` and `client.js` in `wwwroot`
+  * [x] Configure Axum to serve files from `wwwroot`
 
 ✅ **Outcome:** Open `http://localhost:8080` and see the placeholder `index.html` page.
 
